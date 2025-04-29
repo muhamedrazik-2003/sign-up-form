@@ -36,3 +36,30 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  /* css style for signup form */
+  body {
+    background: url('./Images/main-background.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #signup-container {
+    display: flex;
+    background-color: #000000;
+    color: white;
+    width: 50%;
+    height: 75%;
+    border: 1px solid #161616;
+  }
+  .image-section {
+    background: url('./Images/bmw\ illustration\ image.jpg') no-repeat;
+    background-size:contain;
+    width: 45%;
+  }
+  .form-section {
+    
+  }
