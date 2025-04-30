@@ -68,5 +68,23 @@
   .form-section {
     width: 60%;
   }
- 
+  .form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    background-color: rgb(35, 35, 35);
+    border: 2px solid #000000;
+    border-radius: 6px;
+    padding: 3px;
+  }
+  label {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
  
