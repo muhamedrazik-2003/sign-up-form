@@ -1,17 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Form</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div id="signup-container">
-        <div class="image-section"></div>
+        <div class="image-section">
+
+        </div>
         <div class="form-section">
-            <h3>Signup form</h3>
+            <h1>GearShift</h1>
+            <p>For Car Enthusiasts, By Car Enthusiasts </p>
+            <form action="">
+                <div class="form-container">
+                  <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" required />
+                    </div>
+                  <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" required />
+                    </div>
+                  <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="example@email.com" required />
+                    </div>
+                  <div class="form-group">
+                        <label for="phone">Phone number</label>
+                        <input type="tel" name="phone" id="phone" required />
+                    </div>
+                  <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="text" name="password" id="password" required />
+                    </div>
+                  <div class="form-group">
+                        <label for="password-confirm">Confirm Password</label>
+                        <input type="text" name="password-confirm" id="password-confirm" required />
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </body>
+
 </html>

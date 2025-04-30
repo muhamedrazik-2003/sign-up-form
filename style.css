@@ -38,6 +38,10 @@
   }
 
   /* css style for signup form */
+  @font-face {
+    font-family: 'Outfit';
+    src: url('./font/Outfit-Regular.ttf') format('truetype');
+  }
   body {
     background: url('./Images/main-background.png') no-repeat center center fixed;
     background-size: cover;
@@ -46,20 +50,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Outfit' , sans-serif;
   }
   #signup-container {
     display: flex;
     background-color: #000000;
     color: white;
-    width: 50%;
+    width: 60%;
     height: 75%;
     border: 1px solid #161616;
   }
   .image-section {
-    background: url('./Images/bmw\ illustration\ image.jpg') no-repeat;
+    background: url('./Images/ChatGPT\ Image\ Apr\ 30\,\ 2025\,\ 07_41_12\ AM.png') no-repeat;
     background-size:contain;
-    width: 45%;
+    width: 32%;
   }
   .form-section {
-    
+    width: 60%;
   }
+ 
+ 
