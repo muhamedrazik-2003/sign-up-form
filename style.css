@@ -123,7 +123,7 @@ body {
 
 #brand h1 {
   font-size: 32px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .form-container {
@@ -137,7 +137,7 @@ body {
 .form-group {
   display: flex;
   flex-direction: column;
-  width: 48%;
+  width: 45%;
 }
 
 input {
@@ -157,7 +157,7 @@ input:focus {
 
 label {
   color: var(--main-color-white);
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   font-size: 14px;
   font-weight: 600;
 }
@@ -173,7 +173,7 @@ button[type="submit"] {
   color: rgb(0, 0, 0);
   border-radius: 5px;
   border: 2px solid  var(--main-bg);
-  margin-top: 15px;
+  margin-top: 10px;
   cursor: pointer;
 }
 
@@ -190,7 +190,7 @@ label>span {
   width: 100%;
   text-align: left;
   padding: 6px 20px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 #login-link a {
   text-decoration: none;
